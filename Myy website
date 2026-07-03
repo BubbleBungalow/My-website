@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bubble Bungalow Cleaning Co.</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="bubbles">
+<span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<header>
+
+<div class="logo">
+
+<img src="images/logo.png" alt="Bubble Bungalow Logo">
+
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="gallery.html">Gallery</a>
+<a href="booking.html">Book</a>
+<a href="reviews.html">Reviews</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Sparkling Homes.<br>Peace of Mind.</h1>
+
+<p>
+Luxury residential cleaning serving Mesa, Tempe,
+Chandler, Gilbert & Phoenix.
+</p>
+
+<a href="booking.html" class="btn">
+Book Now
+</a>
+
+<a href="contact.html" class="btn2">
+Free Quote
+</a>
+
+</div>
+
+</section>
+
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Standard Cleaning</h3>
+<h4>$165</h4>
+<p>Up to 3 Hours</p>
+</div>
+
+<div class="card">
+<h3>Deep Cleaning</h3>
+<h4>$210</h4>
+<p>Up to 3 Hours</p>
+</div>
+
+<div class="card">
+<h3>Airbnb Turnovers</h3>
+<h4>Starting at $145</h4>
+</div>
+
+<div class="card">
+<h3>Move-In Cleaning</h3>
+<h4>Starting at $275</h4>
+</div>
+
+<div class="card">
+<h3>Move-Out Cleaning</h3>
+<h4>Starting at $295</h4>
+</div>
+
+</div>
+
+</section>
+
+<section class="calculator">
+
+<h2>Instant Cleaning Estimate</h2>
+
+<form id="calculator">
+
+<select id="service">
+<option value="165">Standard Cleaning</option>
+<option value="210">Deep Cleaning</option>
+<option value="145">Airbnb</option>
+<option value="275">Move In</option>
+<option value="295">Move Out</option>
+</select>
+
+<select id="bedrooms">
+<option value="0">1 Bedroom</option>
+<option value="25">2 Bedrooms</option>
+<option value="50">3 Bedrooms</option>
+<option value="75">4 Bedrooms</option>
+<option value="100">5+ Bedrooms</option>
+</select>
+
+<select id="bathrooms">
+<option value="0">1 Bathroom</option>
+<option value="20">2 Bathrooms</option>
+<option value="40">3 Bathrooms</option>
+<option value="60">4+</option>
+</select>
+
+<label><input type="checkbox" value="35"> Inside Oven</label>
+
+<label><input type="checkbox" value="35"> Refrigerator</label>
+
+<label><input type="checkbox" value="40"> Cabinets</label>
+
+<label><input type="checkbox" value="25"> Laundry</label>
+
+<label><input type="checkbox" value="30"> Pet Hair</label>
+
+<button type="button" onclick="calculate()">
+Estimate Price
+</button>
+
+<h3 id="total">$165</h3>
+
+</form>
+
+</section>
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>(602) 888-3164</p>
+
+<p>bubblebungalowco@gmail.com</p>
+
+<p>
+Mesa • Tempe • Chandler • Gilbert • Phoenix
+</p>
+
+<a class="btn" href="booking.html">
+Book Online
+</a>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Bubble Bungalow Cleaning Co.
+
+</p>
+
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/calculator.js"></script>
+
+</body>
+</html>
